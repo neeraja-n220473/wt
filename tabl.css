@@ -1,0 +1,31 @@
+/* External CSS Table */
+
+.emp-table {
+    border-collapse: collapse;
+    width: 65%;
+    margin-top: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.emp-table th {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+.emp-table td {
+    padding: 8px;
+}
+
+.emp-table th, .emp-table td {
+    border: 1px solid #333;
+}
+
+.emp-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.emp-table tr:hover {
+    background-color: #ddd;
+}
